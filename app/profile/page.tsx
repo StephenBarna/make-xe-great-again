@@ -97,7 +97,7 @@ export default function ProfilePage() {
         </CardContent>
         <CardFooter className="flex justify-between">
           <Button variant="outline" onClick={() => router.push("/dashboard")}>
-            Back to Dashboard
+            Back to dashboard
           </Button>
           <Button variant="destructive" onClick={signOut}>
             Sign Out
